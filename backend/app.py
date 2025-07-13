@@ -3,6 +3,7 @@ BugYou Flask Backend API
 Integrates database with frontend for complete debugging challenge platform
 """
 
+import utils.session
 from flask import Flask, request, jsonify, send_from_directory
 from flask_cors import CORS
 import requests
